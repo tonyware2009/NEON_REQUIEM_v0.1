@@ -1,33 +1,43 @@
-NEON REQUIEM v0.4 — VISUAL OVERHAUL
+NEON REQUIEM v0.5 — CINEMATIC BUILD
 
-Major improvements:
-- Redesigned KADE-7 vector sprite with visor, coat, weapon and leg animation
-- Redesigned corporate troopers, drones and AEGIS mech
-- More detailed three-layer cyberpunk skyline
-- Neon signs, rain, haze and improved HUD
-- Industrial platforms and explosive barrels
-- Mission/status notifications
-- Improved explosions and particles
-- Title/menu uses the included NEON REQUIEM concept artwork
-- v0.3 per-weapon ammo/reload system retained
+VISUALS
+- Native 1920x1080 canvas
+- Larger KADE-7 character rendering
+- Larger armored troopers and drones
+- Massive AEGIS boss silhouette
+- Four-layer neon skyline
+- Rain, neon signs, particles and glow
+- Redesigned cinematic HUD
+- Included Sector 07 concept artwork for the menu/art direction
 
-Gameplay:
-- 20 kills triggers AEGIS boss
-- Explosive barrels damage nearby enemies
-- Four persistent weapons
-- Cyber dash, blade and grenades
-- Weapon/ammo/armor pickups
+AUDIO
+- Procedural synthwave soundtrack
+- Unique gun sounds for all four weapons
+- Reload, impact, explosion, dash, blade and pickup effects
+- No external audio files required
 
-Controls:
+BOSS VOICE SYSTEM
+Uses the browser speech synthesis engine.
+AEGIS commander speaks on:
+- Boss entrance
+- ~66% health
+- ~30% health
+- Player death
+- Boss defeat
+
+Boss dialogue is also shown on screen.
+
+NOTE:
+Available voice quality depends on voices installed in the user's browser/operating system.
+
+CONTROLS
 A/D move
 W/Space jump
 Mouse aim
-Left click fire
+LMB fire
 R reload
 1-4 weapons
 Shift dash
-F blade
+F cyber-blade
 G grenade
 Esc pause
-
-This build uses original generated/vector artwork and does not require external assets or libraries.
