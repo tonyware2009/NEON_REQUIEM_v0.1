@@ -1,31 +1,33 @@
-NEON REQUIEM v0.3
+NEON REQUIEM v0.4 — VISUAL OVERHAUL
 
-IMPORTANT FIX
-Weapon ammunition is now stored separately for every gun. Reloading works correctly:
-- Press R to reload the currently equipped weapon.
-- Empty weapons automatically begin reloading.
-- Switching weapons no longer corrupts the magazine/reserve counts.
-- Ammo pickups refill the currently equipped weapon's reserve ammunition.
+Major improvements:
+- Redesigned KADE-7 vector sprite with visor, coat, weapon and leg animation
+- Redesigned corporate troopers, drones and AEGIS mech
+- More detailed three-layer cyberpunk skyline
+- Neon signs, rain, haze and improved HUD
+- Industrial platforms and explosive barrels
+- Mission/status notifications
+- Improved explosions and particles
+- Title/menu uses the included NEON REQUIEM concept artwork
+- v0.3 per-weapon ammo/reload system retained
 
-NEW GAMEPLAY
-- SHIFT: cyber-dash
-- F: cyber-blade melee strike
-- G: grenade
-- Persistent per-weapon magazines/reserves
-- Four weapons remain available with 1-4
-- Boss, drones, troopers, weapon drops, armor and ammo pickups retained
+Gameplay:
+- 20 kills triggers AEGIS boss
+- Explosive barrels damage nearby enemies
+- Four persistent weapons
+- Cyber dash, blade and grenades
+- Weapon/ammo/armor pickups
 
-CONTROLS
-A/D or arrows: move
-W/Space/Up: jump
-Mouse: aim
-Left click: fire
-R: reload
-1-4: switch weapons
-Shift: dash
-F: melee
-G: grenade
-Esc: pause
+Controls:
+A/D move
+W/Space jump
+Mouse aim
+Left click fire
+R reload
+1-4 weapons
+Shift dash
+F blade
+G grenade
+Esc pause
 
-NOTE
-This v0.3 patch prioritizes fixing the weapon/reload architecture before larger sprite/audio/level systems are layered on top.
+This build uses original generated/vector artwork and does not require external assets or libraries.
